@@ -155,3 +155,37 @@ footer h3 {
 /* ABOUT STYLE END */
 
 /* WORK STYLE START */
+.work {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px #8b8be0;
+    border-radius: 2vw;
+    margin: 1vw;
+    background-color: #8b8be04d;
+}
+
+.runBuddy iframe {
+    height: 30vw;
+    width: 62vw;
+    margin: 1vw;
+    border: #8b8be0 2px solid;
+    border-radius: 2vw;
+    padding: .25vw;
+    background-color: #fff;
+}
+
+.placeholder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comingSoon img {
+    height: 30vw;
+    width: 30vw;
+    margin: 1vw;
+    border: #8b8be0 2px solid;
+    border-radius: 2vw;
+    padding: .25vw;
+    background-color: #fff;
+}
