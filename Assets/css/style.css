@@ -1,5 +1,157 @@
-h1 {
-    font-size: larger;
-    font-style: italic;
-    color: blueviolet;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    color: #49497c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* HEADER STYLE START */
+header {
+    padding: 15px 22px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(../images/portfolio-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%;
+    z-index: 9999;
+}
+
+header a {
+    text-decoration: none;
+    color: #49497c;
+}
+
+header nav {
+    margin: 5px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 7px rgba(73, 73, 124, 75%);
+}
+
+header nav ul li a:hover {
+    background: #49497c;
+    color: #8b8be0;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #49497c;
+    margin: 0;
+    display: inline;
+    text-shadow: 0 0 7px rgba(73, 73, 124, 75%);
+}
+/* HEADER STYLE END */
+
+/* FOOTER STYLE START */
+footer {
+    padding: 35px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/portfolio-hero.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+footer h2 {
+    color: #49497c;
+    border-bottom: #49497c solid 1px;
+    flex-basis: 100%;
+    text-align: center;
+    margin: 0 30%;
+    
+}
+
+footer h3 {
+    color: #49497c;
+    padding-top: 4px;
+}
+/* FOOTER STYLE END */
+
+/* HERO STYLE START */
+.hero {
+    background-image: url(../images/portfolio-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero div {
+    padding: 10% 0;
+}
+
+.hero div p {
+    font-size: 4.5vw;
+    text-align: center;
+    text-shadow: 0 0 7px rgba(73, 73, 124, 75%);
+}
+/* HERO STYLE END */
+
+/* ABOUT STYLE START */
+.about {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    border: solid 2px #8b8be0;
+    border-radius: 2vw;
+    margin: 1vw;
+    background-color: #8b8be04d;
+}
+
+.ian-headshot img {
+    width: 20vw;
+    margin: 1vw;
+    border: #8b8be0 2px solid;
+    border-radius: 2vw;
+    padding: .25vw;
+    
+}
+
+.aboutMe {
+    margin: 1vw;
+}
+
+.aboutMe h3 {
+    font-size: 4.5vw;
+    border-bottom: solid #8b8be0 2px;
+    padding-right: 30vw
+
+}
+
+.aboutMe p {
+    padding-top: 1.5vw;
+}
+/* ABOUT STYLE END */
+
+/* WORK STYLE START */
