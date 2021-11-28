@@ -9,6 +9,16 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.work .contact .about {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px #8b8be0;
+    border-radius: 2vw;
+    margin: 1vw;
+    background-color: #8b8be04d;
+}
+
 /* HEADER STYLE START */
 header {
     padding: 15px 22px;
@@ -46,7 +56,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 4vw;
     text-shadow: 0 0 7px rgba(73, 73, 124, 75%);
 }
 
@@ -59,7 +69,7 @@ header nav ul li a:hover {
 
 header h1 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 5vw;
     color: #49497c;
     margin: 0;
     display: inline;
@@ -81,17 +91,20 @@ footer {
 }
 
 footer h2 {
+    font-size: 3.5vw;
     color: #49497c;
     border-bottom: #49497c solid 1px;
     flex-basis: 100%;
     text-align: center;
     margin: 0 30%;
-    
+    text-shadow: 0 0 7px rgba(73, 73, 124, 75%);
 }
 
 footer h3 {
+    font-size: 3vw;
     color: #49497c;
     padding-top: 4px;
+    text-shadow: 0 0 7px rgba(73, 73, 124, 75%);
 }
 /* FOOTER STYLE END */
 
@@ -122,11 +135,11 @@ footer h3 {
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     border: solid 2px #8b8be0;
     border-radius: 2vw;
     margin: 1vw;
     background-color: #8b8be04d;
+    justify-content: center;
 }
 
 .ian-headshot img {
@@ -139,16 +152,22 @@ footer h3 {
 }
 
 .aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 1vw;
 }
 
 .aboutMe h3 {
+    width: 100%;
     font-size: 4.5vw;
     border-bottom: solid #8b8be0 2px;
-    padding-right: 30vw
+    text-align: center;
 }
 
 .aboutMe p {
+    width: 100%;
+    font-size: 1.8vw;
     padding-top: 1.5vw;
 }
 /* ABOUT STYLE END */
@@ -202,12 +221,11 @@ footer h3 {
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     border: solid 2px #8b8be0;
     border-radius: 2vw;
     margin: 1vw;
-    background-color: #8b8be04d; 
-    
+    background-color: #8b8be04d;
+    justify-content: center;
 }
 
 .contact div {
@@ -221,10 +239,45 @@ footer h3 {
 }
 
 .contact p {
+    font-size: 1.8vw;
     padding: 1.5vw 0;
 }
 
 .contact address {
+    font-size: 1.8vw;
     padding-bottom: 1.5vw;
 }
 /* CONTACT STYLE END */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: .5vw;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .runBuddy embed {
+        width: 94vw;
+        height: 60vw;
+    }
+    
+    .comingSoon img {
+        width: 94vw;
+        height: 60vw;
+    }
+}
