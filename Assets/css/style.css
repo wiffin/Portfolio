@@ -200,6 +200,16 @@ footer h3 {
     background-color: #fff;
 }
 
+.imageSmash embed {
+    height: 30vw;
+    width: 30vw;
+    margin: 1vw;
+    border: #8b8be0 2px solid;
+    border-radius: 2vw;
+    padding: .25vw;
+    background-color: #fff;
+}
+
 .placeholder {
     display: flex;
     flex-wrap: wrap;
