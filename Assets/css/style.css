@@ -5,7 +5,7 @@
 }
 
 body {
-    color: #49497c;
+    color: #408ec6;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -28,17 +28,13 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url(../images/portfolio-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 100%;
+    background-color: #7a2048;
     z-index: 9999;
 }
 
 header a {
     text-decoration: none;
-    color: #49497c;
+    color: #408ec6;
 }
 
 header nav {
@@ -56,12 +52,12 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 4vw;
+    font-size: 34px;
     text-shadow: 0 0 7px rgba(73, 73, 124, 75%);
 }
 
 header nav ul li a:hover {
-    background: #49497c;
+    background: #408ec6;
     color: #8b8be0;
     border-radius: 15px;
     text-shadow: none;
@@ -69,8 +65,8 @@ header nav ul li a:hover {
 
 header h1 {
     font-weight: bold;
-    font-size: 5vw;
-    color: #49497c;
+    font-size: 42px;
+    color: #408ec6;
     margin: 0;
     display: inline;
     text-shadow: 0 0 7px rgba(73, 73, 124, 75%);
@@ -92,8 +88,8 @@ footer {
 
 footer h2 {
     font-size: 3.5vw;
-    color: #49497c;
-    border-bottom: #49497c solid 1px;
+    color: #408ec6;
+    border-bottom: #408ec6 solid 1px;
     flex-basis: 100%;
     text-align: center;
     margin: 0 30%;
@@ -102,7 +98,7 @@ footer h2 {
 
 footer h3 {
     font-size: 3vw;
-    color: #49497c;
+    color: #408ec6;
     padding-top: 4px;
     text-shadow: 0 0 7px rgba(73, 73, 124, 75%);
 }
@@ -124,7 +120,8 @@ footer h3 {
 }
 
 .hero div p {
-    font-size: 4.5vw;
+    font-size: 38px;
+    color: #1e2761;
     text-align: center;
     text-shadow: 0 0 7px rgba(73, 73, 124, 75%);
 }
